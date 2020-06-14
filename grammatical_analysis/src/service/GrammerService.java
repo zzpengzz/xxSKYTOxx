@@ -34,7 +34,8 @@ public class GrammerService {
 		/*对每一个输入串进行语法分析
 		 * 判断每一个状态采取的动作
 		 */
-		for (String sentence : sentences) {
+		for (String sentence : sentences)
+		{
 			int temp = 0;
 			//初始化栈
 			status.push(0);

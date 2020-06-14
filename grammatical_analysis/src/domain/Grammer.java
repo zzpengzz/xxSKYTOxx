@@ -27,6 +27,7 @@ public class Grammer {
 	//非终结符
 	public static List<String> nonTerminals = new ArrayList<String>();
 	//语法分析表
+	public static List<Production> word = new ArrayList<Production>();
 	public static List<Map<String,Integer>> action = new ArrayList<Map<String,Integer>>();
 	public static Map<Integer,Integer>  gotoTable = new HashMap<Integer, Integer>();
 //	//项目集
@@ -34,12 +35,14 @@ public class Grammer {
 	static {
 		//产生式初始化
 		productions.add(new Production("S'", "E"));
-		productions.add(new Production("E", "E+E"));
-		productions.add(new Production("E", "E-E"));
-		productions.add(new Production("E", "E*E"));
-		productions.add(new Production("E", "E/E"));
-		productions.add(new Production("E", "(E)"));
-		productions.add(new Production("E", "i"));
+		productions.add(new Production("E", "E+T"));
+		productions.add(new Production("E", "E-T"));
+		productions.add(new Production("E", "T"));
+		productions.add(new Production("T", "T*F"));
+		productions.add(new Production("T", "T/F"));
+		productions.add(new Production("T", "F"));
+		productions.add(new Production("F", "(E)"));
+		productions.add(new Production("F", "i"));
 		//终结符初始化
 		terminals.add("i");
 		terminals.add("+");
@@ -51,6 +54,8 @@ public class Grammer {
 		terminals.add("#");
 		//非终结符初始化
 		nonTerminals.add("E");
+		nonTerminals.add("T");
+		nonTerminals.add("F");
 		//语法分析表
 //		   //i,+,-,*,/,(,),#
 //			{3,0,0,0,0,2,0,0},
@@ -67,7 +72,7 @@ public class Grammer {
 //			{0,-3,-3,-3,-3,0,-3,-3},
 //			{0,-4,-4,-4,-4,0,-4,-4},
 //			{0,-5,-5,-5,-5,0,-5,-5},
-		Map<String,Integer> s0 = new HashMap<String, Integer>();
+		/*Map<String,Integer> s0 = new HashMap<String, Integer>();
 		s0.put("i",3);
 		s0.put("(",2);
 		action.add(s0);
@@ -150,15 +155,41 @@ public class Grammer {
 		gotoTable.put(4, 9);
 		gotoTable.put(5, 10);
 		gotoTable.put(6, 11);
-		gotoTable.put(7, 12);
+		gotoTable.put(7, 12);*/
+		for(int i=0;i<productions.size();i++)//项目集
+		{
+			for(int j=0;j<productions.get(i).toString().length();j++)
+			{
+				StringBuilder sb = new StringBuilder(productions.get(i).getRight());
+				sb.insert(j, "·");
+				word.add(new Production(productions.get(i).getLeft(), sb.toString()));
+			}
+		}
+
+
+
+
+
+
+
 	
 	}
+	/*public static List<Production> closure(List<Production> p) {
+		List<Production[]> s= new ArrayList<Production[]>();
+		for(int i=0;i<p.size();i++)
+		{
+
+		}
+
+
+		return s;
+	}*/
 }
 	/*	TODO:自动生成LR（0）分析表
 	 * 	1、生成项目集
 	 * 	2、生成项目规范族
 	 * 	3、构造活前缀DFA
-	 * 	4、生成分析表
+	 *	4、生成分析表
 	 */
 //	public static void makeAnaTable() {
 //		//求出项目集
@@ -167,23 +198,23 @@ public class Grammer {
 //			int number = production.getRight().length() +1;
 //			for(int i=0; i<number;i++) {
 //				StringBuilder sb = new StringBuilder(production.getRight());
-//				sb.insert(i, ".");
+//				sb.insert(i, "·");
 //				Production project = new Production(production.getLeft(), sb.toString());
 //				projects.add(project);
 //			}
 //		}
-//		/*
+///*
 //		 *	通过闭包函数构造DFA和分析表
-//		 *	
-//		 */
-//		
-//		
+//		 *
+//*/
+
+
 //	}
 //	//闭包函数
 //	public static List<Production> closure(Production p) {
 //		/*
 //		 * 一个项目的闭包包含自身，以及.后面非终结符的所有.开头的项目
-//		 */
+////		 */
 //		List<Production> s = new ArrayList<Production>();
 //
 //		s.add(p);
