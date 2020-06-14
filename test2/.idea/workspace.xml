@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6947707e-7126-4c64-81c2-bd3880c5659f" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/../asd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../asd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="179" column="13" lean-forward="true" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
+            <state relative-caret-position="543">
+              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
               <folding>
                 <element signature="e#2827#3762#1" />
                 <element signature="e#3824#4327#1" />
@@ -84,9 +85,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="867" />
-    <option name="width" value="1555" />
-    <option name="height" value="1038" />
+    <option name="x" value="195" />
+    <option name="y" value="30" />
+    <option name="width" value="1943" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -185,11 +187,20 @@
       <workItem from="1591935006116" duration="5330000" />
       <workItem from="1591968056263" duration="1349000" />
       <workItem from="1592032139504" duration="86000" />
+      <workItem from="1592032284954" duration="243000" />
     </task>
+    <task id="LOCAL-00001" summary="test2">
+      <created>1592032407689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592032407689</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48168000" />
+    <option name="totallyTimeSpent" value="48411000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -201,9 +212,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="162" width="1244" height="736" extended-state="0" />
+    <frame x="385" y="0" width="1554" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27993256" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22593583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计师" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -226,7 +239,6 @@
       <window_info anchor="bottom" id="运行" order="13" weight="0.042432815" />
       <window_info anchor="bottom" id="找到" order="14" />
       <window_info anchor="bottom" id="调试" order="15" />
-      <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -236,16 +248,21 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="179" column="13" lean-forward="true" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
+        <state relative-caret-position="543">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
           <folding>
             <element signature="e#2827#3762#1" />
             <element signature="e#3824#4327#1" />
