@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/domain/Grammer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="175" column="35" selection-start-line="175" selection-start-column="35" selection-end-line="175" selection-end-column="35" />
+            <state relative-caret-position="422">
+              <caret line="180" column="38" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#377#389#0" expanded="true" />
@@ -62,7 +62,6 @@
                 <element signature="e#529#537#0" expanded="true" />
                 <element signature="e#600#612#0" expanded="true" />
                 <element signature="e#684#707#0" expanded="true" />
-                <element signature="e#795#4355#0" />
                 <element signature="e#1591#1598#0" />
                 <element signature="e#1999#4048#0" />
               </folding>
@@ -111,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="558" />
     <option name="y" value="221" />
     <option name="width" value="1940" />
@@ -258,7 +257,7 @@
       <workItem from="1592117178822" duration="6332000" />
       <workItem from="1592125454476" duration="14641000" />
       <workItem from="1592155304150" duration="756000" />
-      <workItem from="1592188573658" duration="3194000" />
+      <workItem from="1592188573658" duration="3467000" />
     </task>
     <servers />
   </component>
@@ -289,7 +288,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25089000" />
+    <option name="totallyTimeSpent" value="25362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -383,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/Grammer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="175" column="35" selection-start-line="175" selection-start-column="35" selection-end-line="175" selection-end-column="35" />
+        <state relative-caret-position="422">
+          <caret line="180" column="38" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#377#389#0" expanded="true" />
@@ -392,7 +391,6 @@
             <element signature="e#529#537#0" expanded="true" />
             <element signature="e#600#612#0" expanded="true" />
             <element signature="e#684#707#0" expanded="true" />
-            <element signature="e#795#4355#0" />
             <element signature="e#1591#1598#0" />
             <element signature="e#1999#4048#0" />
           </folding>

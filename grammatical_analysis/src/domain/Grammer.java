@@ -178,13 +178,13 @@ public class Grammer {
 		clos.get(0).add(new Production("S'", "E"));
 		for(int i=0;i<clos.get(0).size();i++)
 		{
-			for(int j=0;j<terminals.size();j++)
+			for(int j=0;j<nonTerminals.size();j++)
 			{
-				if (clos.get(0).get(i).getRight()==terminals.get(j))
+				if (clos.get(0).get(i).getRight()==nonTerminals.get(j))
 				{
 					for(int k=0;k<word.size();k++)
 					{
-						if(word.get(k).getLeft()==terminals.get(j)&&word.get(k).getRight().charAt(0)=='¡¤')
+						if(word.get(k).getLeft()==nonTerminals.get(j)&&word.get(k).getRight().charAt(0)=='¡¤')
 							clos.get(0).add(new Production(word.get(k).getLeft(), word.get(k).getRight()));
 					}
 				}
