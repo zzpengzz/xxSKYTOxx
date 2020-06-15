@@ -32,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/Production.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="437">
               <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
                 <element signature="e#132#133#0" expanded="true" />
@@ -53,13 +53,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/domain/Grammer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+            <state relative-caret-position="166">
+              <caret line="175" column="35" selection-start-line="175" selection-start-column="35" selection-end-line="175" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#602#614#0" expanded="true" />
-                <element signature="e#1376#1383#0" />
-                <element signature="e#1874#3923#0" />
+                <element signature="e#377#389#0" expanded="true" />
+                <element signature="e#453#461#0" expanded="true" />
+                <element signature="e#529#537#0" expanded="true" />
+                <element signature="e#600#612#0" expanded="true" />
+                <element signature="e#684#707#0" expanded="true" />
+                <element signature="e#795#4355#0" />
+                <element signature="e#1591#1598#0" />
+                <element signature="e#1999#4048#0" />
               </folding>
             </state>
           </provider>
@@ -68,11 +73,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/MyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+            <state relative-caret-position="760">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1282#1290#0" />
               </folding>
             </state>
           </provider>
@@ -81,13 +85,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/GrammerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1623">
-              <caret line="100" column="26" lean-forward="true" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+            <state relative-caret-position="619">
+              <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#337#346#0" expanded="true" />
-                <element signature="e#404#412#0" expanded="true" />
-                <element signature="e#476#484#0" expanded="true" />
                 <element signature="e#871#910#0" />
                 <element signature="method#error#0;class#GrammerService#0" />
               </folding>
@@ -110,19 +111,19 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="558" />
+    <option name="y" value="221" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,6 +257,8 @@
       <workItem from="1592116135588" duration="166000" />
       <workItem from="1592117178822" duration="6332000" />
       <workItem from="1592125454476" duration="14641000" />
+      <workItem from="1592155304150" duration="756000" />
+      <workItem from="1592188573658" duration="3194000" />
     </task>
     <servers />
   </component>
@@ -286,12 +289,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21139000" />
+    <option name="totallyTimeSpent" value="25089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.36126006" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.21514745" />
       <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.2533512" />
       <window_info id="设计师" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -336,20 +340,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1282#1290#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/Production.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="437">
           <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
           <folding>
             <element signature="e#132#133#0" expanded="true" />
@@ -366,15 +359,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/GrammerService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/MyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1623">
-          <caret line="100" column="26" lean-forward="true" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+        <state relative-caret-position="760">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#337#346#0" expanded="true" />
-            <element signature="e#404#412#0" expanded="true" />
-            <element signature="e#476#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/GrammerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#871#910#0" />
             <element signature="method#error#0;class#GrammerService#0" />
           </folding>
@@ -383,13 +383,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/Grammer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+        <state relative-caret-position="166">
+          <caret line="175" column="35" selection-start-line="175" selection-start-column="35" selection-end-line="175" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#602#614#0" expanded="true" />
-            <element signature="e#1376#1383#0" />
-            <element signature="e#1874#3923#0" />
+            <element signature="e#377#389#0" expanded="true" />
+            <element signature="e#453#461#0" expanded="true" />
+            <element signature="e#529#537#0" expanded="true" />
+            <element signature="e#600#612#0" expanded="true" />
+            <element signature="e#684#707#0" expanded="true" />
+            <element signature="e#795#4355#0" />
+            <element signature="e#1591#1598#0" />
+            <element signature="e#1999#4048#0" />
           </folding>
         </state>
       </provider>

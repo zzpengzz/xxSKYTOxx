@@ -26,8 +26,11 @@ public class Grammer {
 	public static List<String> terminals = new ArrayList<String>();
 	//非终结符
 	public static List<String> nonTerminals = new ArrayList<String>();
-	//语法分析表
+	//项目集
 	public static List<Production> word = new ArrayList<Production>();
+	//项目规范族
+	public static List<ArrayList<Production>>  clos= new  ArrayList<ArrayList<Production>>();
+	//语法分析表
 	public static List<Map<String,Integer>> action = new ArrayList<Map<String,Integer>>();
 	public static Map<Integer,Integer>  gotoTable = new HashMap<Integer, Integer>();
 //	//项目集
@@ -166,13 +169,27 @@ public class Grammer {
 			}
 		}
 
-
-
-
-
-
-
 	
+	}
+
+
+	public static void init()//i0状态
+	{
+		clos.get(0).add(new Production("S'", "E"));
+		for(int i=0;i<clos.get(0).size();i++)
+		{
+			for(int j=0;j<terminals.size();j++)
+			{
+				if (clos.get(0).get(i).getRight()==terminals.get(j))
+				{
+					for(int k=0;k<word.size();k++)
+					{
+						if(word.get(k).getLeft()==terminals.get(j)&&word.get(k).getRight().charAt(0)=='·')
+							clos.get(0).add(new Production(word.get(k).getLeft(), word.get(k).getRight()));
+					}
+				}
+			}
+		}
 	}
 	/*public static List<Production> closure(List<Production> p) {
 		List<Production[]> s= new ArrayList<Production[]>();

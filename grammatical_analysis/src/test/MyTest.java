@@ -40,12 +40,12 @@ public class MyTest {
 	        }
 	}
 
-	@Test
+/*	@Test
 	public void Test1(){
 //		System.out.println(GrammerService.action[0][0]);
 //		System.out.println(GrammerService.gotoTable[0][0]);
 //
-	}
+	}*/
 	@Test
 	public void Test2(){
 		GrammerService gs = new GrammerService();
