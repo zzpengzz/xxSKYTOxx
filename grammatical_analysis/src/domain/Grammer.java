@@ -59,6 +59,12 @@ public class Grammer {
 		nonTerminals.add("E");
 		nonTerminals.add("T");
 		nonTerminals.add("F");
+		init();
+		int t=0;
+		closure(t);
+
+
+
 		//语法分析表
 //		   //i,+,-,*,/,(,),#
 //			{3,0,0,0,0,2,0,0},
@@ -191,16 +197,44 @@ public class Grammer {
 			}
 		}
 	}
-	/*public static List<Production> closure(List<Production> p) {
-		List<Production[]> s= new ArrayList<Production[]>();
-		for(int i=0;i<p.size();i++)
+	public static void closure(int t)//生成规范族
+	{
+		for(int i=0;i<clos.get(t).size();i++)
 		{
 
+
+			for(int j=0;j<word.size();j++)
+			{
+				StringBuilder sb = new StringBuilder(word.get(j).getRight());
+				if(sb.charAt(sb.length()-1)=='·')
+					break;
+				if(clos.get(t).get(i).getRight()==word.get(j).getRight())
+				{
+					clos.get(t+1).add(new Production( word.get(j+1).getLeft(),word.get(j+1).getRight()));
+					break;
+				}
+			}
+		}
+		for(int i=0;i<clos.get(t).size();i++)
+		{
+			for(int j=0;j<nonTerminals.size();j++)
+			{
+				if (clos.get(t).get(i).getRight()==nonTerminals.get(j))
+				{
+					for(int k=0;k<word.size();k++)
+					{
+						if(word.get(k).getLeft()==nonTerminals.get(j)&&word.get(k).getRight().charAt(0)=='·')
+							clos.get(t).add(new Production(word.get(k).getLeft(), word.get(k).getRight()));
+					}
+				}
+			}
 		}
 
+		if(t+1<=clos.size())
+			closure(t+1);
 
-		return s;
-	}*/
+
+	}
 }
 	/*	TODO:自动生成LR（0）分析表
 	 * 	1、生成项目集
